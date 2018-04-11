@@ -180,7 +180,7 @@
       <div class="modal-body">
 	  <form method="post" action="<?php echo base_url()?>index.php/admin/form_validation6">
 	  <?php date_default_timezone_set("Asia/Kuala_Lumpur");
-			$connect = mysqli_connect("localhost", "root", "", "db_admin");
+			$connect = mysqli_connect("ddac2018.mysql.database.azure.com", "game09488@ddac2018", "Knd89757879", "db_admin");
 	  ?>
         <div class="form-group">
             <span class="input-group-addon"><i class="fa fa-long-arrow-right"></i>Admin ID</span>
