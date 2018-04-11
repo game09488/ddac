@@ -130,7 +130,7 @@
                   <div class="input-group-addon">
                     <i class="fa fa-at"></i>
                   </div>
-                  <?php $connect = mysqli_connect("localhost", "root", "", "db_admin");
+                  <?php $connect = mysqli_connect("ddac2018.mysql.database.azure.com", "game09488@ddac2018", "Knd89757879", "db_admin");
 						$sql = mysqli_query($connect,"SELECT customer_id FROM customer");
 						echo '<select class="form-control" name="customer_id">';
 						while($row = mysqli_fetch_array($sql)){
