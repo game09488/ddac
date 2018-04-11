@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
+	'hostname' => 'ddac2018.mysql.database.azure.com',
+	'username' => 'game09488@ddac2018',
+	'password' => 'Knd89757879',
 	'database' => 'db_admin',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
