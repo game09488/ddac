@@ -1,5 +1,5 @@
  <?php  
- $connect = mysqli_connect("localhost", "root", "", "db_admin");  
+ $connect = mysqli_connect("ddac2018.mysql.database.azure.com", "game09488@ddac2018", "Knd89757879", "db_admin");  
  $sql = "SELECT booking_id,status FROM booking WHERE status='Pending'";
  $result = mysqli_query($connect, $sql);
  ?>
